@@ -10,6 +10,7 @@ venv/
 
 # Ignore ChromaDB persistence directory
 db/
+!db/app.py  # Explicitly include app.py
 
 # Ignore Streamlit config file
 .config/
