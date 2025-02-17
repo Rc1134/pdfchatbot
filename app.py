@@ -127,7 +127,7 @@ if uploaded_file is not None:
                 st.write(response["result"])
 
         except Exception as e:
-            st.error(f"Error processing question: {str(e)}")
+            st.error(f"Error processing question: {str(e)}") # check if this is the right way to handle errors not needed for now
             st.info("Please try rephrasing your question or uploading a different document.")
 else:
     st.info("Please upload a PDF to begin.")
