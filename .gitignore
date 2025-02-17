@@ -1,0 +1,20 @@
+# Ignore the .env file (for security reasons)
+.env
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore ChromaDB persistence directory
+db/
+
+# Ignore Streamlit config file
+.config/
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.swp
